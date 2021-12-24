@@ -1,7 +1,7 @@
 # setup
 lista = []
 
-x = input(str("Enter a word: "))
+x = input(str("Dime tu palabra: "))
 
 hazte = "Hazte un " + x
 que = "Un que?"
@@ -25,7 +25,7 @@ index = 0
 flag = True # flag para ver si escribe o se compara
 
 # print menu
-print("Answers:\n-\tHazte un " + x + "\n-\tUn que?" + "\n-\tUn " + x + "\n\n\nType the asnwer or 'exit' to stop the game:\n")
+print("Respuestas:\n-\tHazte un " + x + "\n-\tUn que?" + "\n-\tUn " + x + "\n\n\nEscribe la respuesta o 'exit' para parar el juego:\n")
 
 # bucle del juego
 while True:
